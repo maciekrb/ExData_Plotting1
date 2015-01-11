@@ -1,3 +1,25 @@
+## Update
+Includes solution for assignment. Code files can be found respectively in `plot1.R`, `plot2.R`, `plot3.R` and `plot4`.R files. 
+PNG plots, can be found in the `output_files`  folder. 
+
+To obtain the plots, you can do the following:
+  - Place the `household_power_consumption.txt` file in the root of the repository.
+  - Source the 4 `R` files.
+  - Run the code: 
+```R
+  plot1() # draw plot 1 on the screen
+  plot1("someplot.png")  # Draw plot 1 to a PNG file named someplot.png
+
+  plot2() # draw plot 2 on the screen
+  plot2("someplot.png")  # Draw plot 2 to a PNG file named someplot.png
+
+  plot3() # draw plot 3 on the screen
+  plot3("someplot.png")  # Draw plot 3 to a PNG file named someplot.png
+
+  plot4() # draw plot 4 on the screen
+  plot4("someplot.png")  # Draw plot 4 to a PNG file named someplot.png
+
+```
 ## Introduction
 
 This assignment uses data from
